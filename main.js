@@ -63,11 +63,11 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
       defaultQueryTimeoutMs: undefined, // for this issues https://github.com/WhiskeySockets/Baileys/issues/276
    })
    
-   store.bind(XeonBotInc.ev)
+   store.bind(SahebBotInc.ev)
 
     // login use pairing code
    // source code https://github.com/WhiskeySockets/Baileys/blob/master/Example/example.ts#L61
-   if (pairingCode && !XeonBotInc.authState.creds.registered) {
+   if (pairingCode && !SahebBotInc.authState.creds.registered) {
       if (useMobile) throw new Error('Cannot use pairing code with mobile api')
 
       let phoneNumber
@@ -294,3 +294,4 @@ if (e.includes("Value not found")) return
 console.log('Caught exception: ', err)
 
 })
+
