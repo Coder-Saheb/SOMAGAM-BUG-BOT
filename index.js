@@ -1,11 +1,6 @@
-//base by Tech-God
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
-//GitHub: @techgod143
-//WhatsApp: +917466008456
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
+//base by Saheb bot program 
+//WhatsApp: +917718570357
+//want more free bot scripts? hahahaa jk
 
 const {
    spawn
