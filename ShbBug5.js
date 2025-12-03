@@ -1,11 +1,8 @@
-//base by Tech-God
+//base by Saheb bot program 
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
-//GitHub: @techgod143
-//WhatsApp: +917466008456
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
+//Instagram: _sahebx_
+//WhatsApp: +917718570357 
+//want more free bot scripts ?
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -192,12 +189,12 @@ participant: '0@s.whatsapp.net'
 };
 
 const xeonimun = (texto) => {
-XeonBotInc.sendMessage(from, { text: texto, mentions: [sender]}, {quoted: m }).catch(e => {
+SahebBotInc.sendMessage(from, { text: texto, mentions: [sender]}, {quoted: m }).catch(e => {
 return reply("Erro..")
 })
 }
 
-const subscribe_TechGod = {
+const saheb program bot= {
 "key": { 
 "fromMe": false,
 "participant": '0@s.whatsapp.net',
@@ -222,7 +219,7 @@ async function loading () {
 var xeonlod = [
 "《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
-"《 ███████▒▒Tech-God▒▒▒》50%",
+"《 ███████▒▒SAHEB▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
 "𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🐛..."
@@ -230,48 +227,48 @@ var xeonlod = [
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
 for (let i = 0; i < xeonlod.length; i++) {
-await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
+await SahebBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
 }
 }
 
-        if (!XeonBotInc.public) {
+        if (!SahebBotInc.public) {
             if (!isCreator && !m.key.fromMe) return
         }
         
         if (autoread) {
-            XeonBotInc.readMessages([m.key])
+            SahebBotInc.readMessages([m.key])
         }
         
         if (global.autoTyping) {
-        XeonBotInc.sendPresenceUpdate('composing', from)
+        SahebBotInc.sendPresenceUpdate('composing', from)
         }
 
         if (global.autoRecording) {
-        XeonBotInc.sendPresenceUpdate('recording', from)
+        SahebBotInc.sendPresenceUpdate('recording', from)
         }
 
         
         //bot number online status, available=online, unavailable=offline
-        XeonBotInc.sendPresenceUpdate('uavailable', from)
+        SahebBotInc.sendPresenceUpdate('uavailable', from)
         
         if (global.autorecordtype) {
         let xeonrecordin = ['recording','composing']
         let xeonrecordinfinal = xeonrecordin[Math.floor(Math.random() * xeonrecordin.length)]
-        XeonBotInc.sendPresenceUpdate(xeonrecordinfinal, from)
+        sahebBotInc.sendPresenceUpdate(xeonrecordinfinal, from)
 
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`24/7 Online Bot. *Youtube search- Tech God* user ${ownername}`).catch(_ => _)
+            SahebBotInc.updateProfileStatus(`24/7 Online Bot. *Youtube search- Tech God* user ${ownername}`).catch(_ => _)
         }
         if (m.sender.startsWith('92') && global.anti92 === true) {
-            return XeonBotInc.updateBlockStatus(m.sender, 'block')
+            return sahebBotInc.updateBlockStatus(m.sender, 'block')
         }
         let list = []
         for (let i of owner) {
 list.push({
-	    	displayName: await XeonBotInc.getName(i),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i)}\nFN:${await XeonBotInc.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	displayName: await SahebBotInc.getName(i),
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await SahebBotInc.getName(i)}\nFN:${await XeonBotInc.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	
@@ -298,30 +295,30 @@ list.push({
 for (let BhosdikaXeon of VoiceNoteXeon) {
 if (budy === BhosdikaXeon) {
 let audiobuffy = fs.readFileSync(`./XeonMedia/audio/${BhosdikaXeon}.mp3`)
-XeonBotInc.sendMessage(m.chat, { audio: audiobuffy, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+SahebBotInc.sendMessage(m.chat, { audio: audiobuffy, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 }
 }
 for (let BhosdikaXeon of StickerXeon){
 if (budy === BhosdikaXeon){
 let stickerbuffy = fs.readFileSync(`./XeonMedia/sticker/${BhosdikaXeon}.webp`)
-XeonBotInc.sendMessage(m.chat, { sticker: stickerbuffy }, { quoted: m })
+SahebBotInc.sendMessage(m.chat, { sticker: stickerbuffy }, { quoted: m })
 }
 }
 for (let BhosdikaXeon of ImageXeon){
 if (budy === BhosdikaXeon){
 let imagebuffy = fs.readFileSync(`./XeonMedia/image/${BhosdikaXeon}.jpg`)
-XeonBotInc.sendMessage(m.chat, { image: imagebuffy }, { quoted: m })
+SahebBotInc.sendMessage(m.chat, { image: imagebuffy }, { quoted: m })
 }
 }
 for (let BhosdikaXeon of VideoXeon){
 if (budy === BhosdikaXeon){
 let videobuffy = fs.readFileSync(`./XeonMedia/video/${BhosdikaXeon}.mp4`)
-XeonBotInc.sendMessage(m.chat, { video: videobuffy }, { quoted: m })
+SahebBotInc.sendMessage(m.chat, { video: videobuffy }, { quoted: m })
 }
 }
 
 const sendapk = (teks) => {
-XeonBotInc.sendMessage(from, { document: teks, mimetype: 'application/vnd.android.package-archive'}, {quoted:m})
+SahebBotInc.sendMessage(from, { document: teks, mimetype: 'application/vnd.android.package-archive'}, {quoted:m})
 }
 for (let BhosdikaXeon of ApkXeon) {
 if (budy === BhosdikaXeon) {
@@ -331,7 +328,7 @@ sendapk(buffer)
 }
 
 const sendzip = (teks) => {
-XeonBotInc.sendMessage(from, { document: teks, mimetype: 'application/zip'}, {quoted:m})
+SahebBotInc.sendMessage(from, { document: teks, mimetype: 'application/zip'}, {quoted:m})
 }
 for (let BhosdikaXeon of ZipXeon) {
 if (budy === BhosdikaXeon) {
@@ -2732,3 +2729,4 @@ if (e.includes("Timed Out")) return
 if (e.includes("Value not found")) return
 console.log('Caught exception: ', err)
 })
+
