@@ -1,5 +1,5 @@
 {
-    "name": "XBug-Bot",
+    "name": "sahebBug-Bot",
     "version": "5.0.0",
     "description": "WhatsApp War Bot Using Nodejs",
     "main": "main.js",
@@ -14,8 +14,8 @@
     "scripts": {
         "start": "node index.js"
     },
-    "author": "DGXeon",
-    "license": "MIT",
+    "author": "saheb",
+    "license": "none",
     "dependencies": {
         "@whiskeysockets/baileys": "^6.5.0",
         "@adiwajshing/keyed-db": "^0.2.4",
