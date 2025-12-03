@@ -76,7 +76,7 @@ var xeonytimewisher = `Good Morning 🌄`
  if(time2 < "05:00:00"){
 var xeonytimewisher = `Good Morning 🌄`
  } 
-module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
+module.exports = SahebBotInc = async (SahebBotInc, m, msg, chatUpdate, store) => {
     try {
         const {
             type,
@@ -93,7 +93,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
         const args = body.trim().split(/ +/).slice(1)
         const full_args = body.replace(command, '').slice(1).trim()
         const pushname = m.pushName || "No Name"
-        const botNumber = await XeonBotInc.decodeJid(XeonBotInc.user.id)
+        const botNumber = await SahebBotInc.decodeJid(XeonBotInc.user.id)
         const itsMe = m.sender == botNumber ? true : false
         const sender = m.sender
         const text = q = args.join(" ")
@@ -132,7 +132,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
         expiredCheck(XeonBotInc, m, premium);
 //group chat msg by xeon
 const replygcxeon = (teks) => {
-XeonBotInc.sendMessage(m.chat,
+SahebBotInc.sendMessage(m.chat,
 { text: teks,
 contextInfo:{
 mentionedJid:[sender],
@@ -205,18 +205,18 @@ message: {
 title: `TechGod's ur father`
 }}
 }
-async function XeonyCrashy(dgxeon,chat) {
-XeonBotInc.sendMessage(chat, {
+async function SahebCrashySystem(xeon,chat) {
+SahebBotInc.sendMessage(chat, {
 document: {url: './settings.js'},
 mimetype: `image/null`,
-fileName: `${dgxeon}.${xeontext1}` ,
-caption: `${dgxeon + xeontext1}`,
-}, {quoted: subscribe_dgxeon })
+fileName: `${Sxeon}.${xeontext1}` ,
+caption: `${Sxeon + xeontext1}`,
+}, {quoted: subscribe_webman })
 }
 //end bug functions
 
 async function loading () {
-var xeonlod = [
+var xlod = [
 "《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
 "《 ███████▒▒SAHEB▒▒▒》50%",
@@ -224,10 +224,10 @@ var xeonlod = [
 "《 ████████████》100%",
 "𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🐛..."
 ]
-let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
+let { key } = await SahebBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
-for (let i = 0; i < xeonlod.length; i++) {
-await SahebBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
+for (let i = 0; i < xelod.length; i++) {
+await SahebBotInc.sendMessage(from, {text: xelod[i], edit: key });
 }
 }
 
@@ -2729,4 +2729,5 @@ if (e.includes("Timed Out")) return
 if (e.includes("Value not found")) return
 console.log('Caught exception: ', err)
 })
+
 
